@@ -10,12 +10,13 @@
 		90F2932A1ED3150700822A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F293291ED3150700822A2D /* main.m */; };
 		90F2932D1ED3150700822A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F2932C1ED3150700822A2D /* AppDelegate.m */; };
 		90F293301ED3150700822A2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F2932F1ED3150700822A2D /* ViewController.m */; };
-		90F293331ED3150700822A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F293311ED3150700822A2D /* Main.storyboard */; };
 		90F293361ED3150700822A2D /* QYPlayerDesignCompetition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90F293341ED3150700822A2D /* QYPlayerDesignCompetition.xcdatamodeld */; };
 		90F293381ED3150700822A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F293371ED3150700822A2D /* Assets.xcassets */; };
 		90F2933B1ED3150700822A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F293391ED3150700822A2D /* LaunchScreen.storyboard */; };
 		90F293461ED3150700822A2D /* QYPlayerDesignCompetitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F293451ED3150700822A2D /* QYPlayerDesignCompetitionTests.m */; };
 		90F293511ED3150700822A2D /* QYPlayerDesignCompetitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F293501ED3150700822A2D /* QYPlayerDesignCompetitionUITests.m */; };
+		90F2941A1ED6C80500822A2D /* ImformationTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F294191ED6C80500822A2D /* ImformationTopBarView.m */; };
+		90F2941D1ED7CE4F00822A2D /* img_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F2941C1ED7CE4F00822A2D /* img_search@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		90F2932C1ED3150700822A2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		90F2932E1ED3150700822A2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90F2932F1ED3150700822A2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		90F293321ED3150700822A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F293351ED3150700822A2D /* QYPlayerDesignCompetition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QYPlayerDesignCompetition.xcdatamodel; sourceTree = "<group>"; };
 		90F293371ED3150700822A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F2933A1ED3150700822A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,10 @@
 		90F2934C1ED3150700822A2D /* QYPlayerDesignCompetitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYPlayerDesignCompetitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F293501ED3150700822A2D /* QYPlayerDesignCompetitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYPlayerDesignCompetitionUITests.m; sourceTree = "<group>"; };
 		90F293521ED3150700822A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F294161ED6BE5D00822A2D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		90F294181ED6C7FE00822A2D /* ImformationTopBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImformationTopBarView.h; sourceTree = "<group>"; };
+		90F294191ED6C80500822A2D /* ImformationTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImformationTopBarView.m; sourceTree = "<group>"; };
+		90F2941C1ED7CE4F00822A2D /* img_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_search@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,13 @@
 		90F293271ED3150700822A2D /* QYPlayerDesignCompetition */ = {
 			isa = PBXGroup;
 			children = (
+				90F294171ED6C7E500822A2D /* TopBar */,
 				90F2932B1ED3150700822A2D /* AppDelegate.h */,
 				90F2932C1ED3150700822A2D /* AppDelegate.m */,
 				90F2932E1ED3150700822A2D /* ViewController.h */,
 				90F2932F1ED3150700822A2D /* ViewController.m */,
-				90F293311ED3150700822A2D /* Main.storyboard */,
 				90F293371ED3150700822A2D /* Assets.xcassets */,
+				90F2941C1ED7CE4F00822A2D /* img_search@3x.png */,
 				90F293391ED3150700822A2D /* LaunchScreen.storyboard */,
 				90F2933C1ED3150700822A2D /* Info.plist */,
 				90F293341ED3150700822A2D /* QYPlayerDesignCompetition.xcdatamodeld */,
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				90F293291ED3150700822A2D /* main.m */,
+				90F294161ED6BE5D00822A2D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +147,15 @@
 				90F293521ED3150700822A2D /* Info.plist */,
 			);
 			path = QYPlayerDesignCompetitionUITests;
+			sourceTree = "<group>";
+		};
+		90F294171ED6C7E500822A2D /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				90F294181ED6C7FE00822A2D /* ImformationTopBarView.h */,
+				90F294191ED6C80500822A2D /* ImformationTopBarView.m */,
+			);
+			name = TopBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +226,7 @@
 					90F293241ED3150700822A2D = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = Z2ANP2RWYV;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					90F293401ED3150700822A2D = {
@@ -253,8 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F2933B1ED3150700822A2D /* LaunchScreen.storyboard in Resources */,
+				90F2941D1ED7CE4F00822A2D /* img_search@3x.png in Resources */,
 				90F293381ED3150700822A2D /* Assets.xcassets in Resources */,
-				90F293331ED3150700822A2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +297,7 @@
 			files = (
 				90F293301ED3150700822A2D /* ViewController.m in Sources */,
 				90F2932D1ED3150700822A2D /* AppDelegate.m in Sources */,
+				90F2941A1ED6C80500822A2D /* ImformationTopBarView.m in Sources */,
 				90F293361ED3150700822A2D /* QYPlayerDesignCompetition.xcdatamodeld in Sources */,
 				90F2932A1ED3150700822A2D /* main.m in Sources */,
 			);
@@ -318,14 +335,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		90F293311ED3150700822A2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90F293321ED3150700822A2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90F293391ED3150700822A2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +442,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z2ANP2RWYV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QYPlayerDesignCompetition/PrefixHeader.pch";
 				INFOPLIST_FILE = QYPlayerDesignCompetition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jie.QYPlayerDesignCompetition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QYPlayerDesignCompetition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -445,11 +460,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z2ANP2RWYV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QYPlayerDesignCompetition/PrefixHeader.pch";
 				INFOPLIST_FILE = QYPlayerDesignCompetition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jie.QYPlayerDesignCompetition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QYPlayerDesignCompetition-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -522,6 +542,7 @@
 				90F293571ED3150700822A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F293581ED3150700822A2D /* Build configuration list for PBXNativeTarget "QYPlayerDesignCompetitionTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +551,7 @@
 				90F2935A1ED3150700822A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F2935B1ED3150700822A2D /* Build configuration list for PBXNativeTarget "QYPlayerDesignCompetitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +560,7 @@
 				90F2935D1ED3150700822A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
